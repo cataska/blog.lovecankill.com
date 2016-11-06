@@ -22,3 +22,5 @@ cp ../CNAME .
 cp -R ../resources/public/* .
 git add -A .
 git commit -m "regen for $REV"
+
+git push origin master
