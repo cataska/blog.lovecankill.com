@@ -3,6 +3,4 @@
  :page-index 0
  :navbar? true}
 
-## Write something about something
-
-wow wow wow
+曾經是文青，現在是碼工；曾經是丈夫，現在是父親
