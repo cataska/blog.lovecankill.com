@@ -18,4 +18,14 @@
     <a href="{{tag.uri}}">{{tag.name}}</a>
     {% endfor %}
 </div>
+
+<div>
+  <a href="https://twitter.com/share" class="twitter-share-button"
+     data-show-count="false"
+     data-text="{{post.title}}"
+     data-url="{{site-url}}{{post.uri}}">
+    Tweet
+  </a>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 {% endif %}
