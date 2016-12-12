@@ -17,8 +17,6 @@ REV=`git describe --always`
 cd _public
 rm -fr *
 
-cp ../CNAME .
-
 cp -R ../resources/public/* .
 git add -A .
 git commit -m "regen for $REV"
